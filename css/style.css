@@ -286,6 +286,10 @@ p {
 }
 
 @media (min-width: 1200px) {
+    body {
+        background-attachment: scroll;
+    }
+    
     h1 {
         font-size: 100px;
     }
