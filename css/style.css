@@ -48,8 +48,16 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /* min-height: 100vh; */
+    min-height: 100vh;
     min-height: 100dvh;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 header {
@@ -80,7 +88,6 @@ h1 {
     width: 300px;
     height: 450px;
     position: relative;
-    float: left;
     transition: transform 0.9s;
     margin-bottom: 30px;
     transform-style: preserve-3d;
@@ -250,11 +257,6 @@ p {
 /* mobile */
 
 @media (max-width: 767px) {
-    body {
-        background-attachment: scroll;
-        
-    }
-    
     h1 {
         font-size: 30px;
     }
