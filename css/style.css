@@ -250,6 +250,11 @@ p {
 /* mobile */
 
 @media (max-width: 767px) {
+    body {
+        background-attachment: scroll;
+        
+    }
+    
     h1 {
         font-size: 30px;
     }
@@ -286,9 +291,6 @@ p {
 }
 
 @media (min-width: 1200px) {
-    body {
-        background-attachment: scroll;
-    }
     
     h1 {
         font-size: 100px;
